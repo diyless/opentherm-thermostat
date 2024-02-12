@@ -1,7 +1,6 @@
 # OpenTherm Thermostat.
 
-![image](https://github.com/diyless/opentherm-thermostat/assets/61807075/024e4424-0322-4042-8f8b-0cc79e53dc5b)
-
+![image](https://github.com/diyless/opentherm-thermostat/assets/61807075/37594781-d49c-4a24-8407-881a1ee3e0e9)
 
 This repository is for a feedback on using our OpenTherm Thermostat.
 
