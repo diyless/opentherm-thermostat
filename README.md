@@ -25,10 +25,10 @@ You would not need an activation code if you use it with an original ESP32 bough
 ### changes
 
 - state json properties rename
--- CHWaterPressure -> CHPressure
--- ReturnWaterTemperature -> CHRetTemp
--- OutsideTemperature -> OutsideTemp
--- ExhaustTemperature -> ExhaustTemp
+  - CHWaterPressure -> CHPressure
+  - ReturnWaterTemperature -> CHRetTemp
+  - OutsideTemperature -> OutsideTemp
+  - ExhaustTemperature -> ExhaustTemp
 - availability topic changed: *~/tele/LWT* -> *~/tele/climate*
 - availability topics for BLE / OT sensors: *~/tele/ble*, *~/tele/ot*
 
