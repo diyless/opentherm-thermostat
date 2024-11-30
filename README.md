@@ -10,3 +10,30 @@ Here you can request a new feature or report an issue(s) experienced while using
 
 If you have experimented with your thermostat, i.e. set up the wrong settings or loaded a custom firmware - you can restore the original one using our [web flasher](https://diyless.com/flasher).
 You would not need an activation code if you use it with an original ESP32 bought from us in the thermostat bundle.
+
+
+# Firmware Versions
+
+## v2.1
+### bugfixes
+
+- CH schedule  not working
+- CH schedule payload and enable now are independent properties
+- BLE connected mode - fixed battery percentage
+- BLE connected mode - timeout reduced to 4 minutes
+
+### changes
+
+- state json properties rename
+-- CHWaterPressure -> CHPressure
+-- ReturnWaterTemperature -> CHRetTemp
+-- OutsideTemperature -> OutsideTemp
+-- ExhaustTemperature -> ExhaustTemp
+- availability topic changed: *~/tele/LWT* -> *~/tele/climate*
+- availability topics for BLE / OT sensors: *~/tele/ble*, *~/tele/ot*
+
+### improvements / new features
+
+- HA autodiscovery - device unique id added
+- HA autodiscovery - diagnostics sensors added
+- CH Boiler Limit / Boiler Max properties (and sensors) added 
