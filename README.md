@@ -14,7 +14,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 
 # Firmware Versions
 
-## v2.1
+## v2.1 (in progress)
 ### bugfixes
 
 - CH schedule  not working
