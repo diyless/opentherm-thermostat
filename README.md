@@ -36,4 +36,35 @@ You would not need an activation code if you use it with an original ESP32 bough
 
 - HA autodiscovery - device unique id added
 - HA autodiscovery - diagnostics sensors added
-- CH Boiler Limit / Boiler Max properties (and sensors) added 
+- CH Boiler Limit / Boiler Max properties (and sensors) added
+
+<details>
+  <summary> list of autodiscoverable sensors </summary>
+
+  - Flame Level
+  - Flame State
+  - CH Temperature
+  - CH Setpoint
+  - CH State
+  - CH Boiler Temp Limit
+  - CH Boiler Max Temp
+  - CH Water Pressure
+  - CH Return TemperatureDHW State
+  - DHW Temperature
+  - DHW Temperature2
+  - Outdoor Temperature
+  - Exhaust Temperature
+  - DiagnosticFault
+  - Fault Code
+  - OpenTherm Status
+  - PI factor I
+  - WiFi RSSI
+  
+  - BLE Battery
+  - BLE Battery Voltage
+  - BLE RSSI
+  - BLE Loss Rate
+  - BLE Last Seen
+  - BLE Temperature
+  - BLE Humidity
+</details>
