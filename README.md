@@ -37,6 +37,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 - HA autodiscovery - device unique id added
 - HA autodiscovery - diagnostics sensors added
 - CH Boiler Limit / Boiler Max properties (and sensors) added
+- OpenTherm messages log to the mqtt
 
 <details>
   <summary> list of autodiscoverable sensors </summary>
