@@ -29,15 +29,16 @@ You would not need an activation code if you use it with an original ESP32 bough
   - ReturnWaterTemperature -> CHRetTemp
   - OutsideTemperature -> OutsideTemp
   - ExhaustTemperature -> ExhaustTemp
-- availability topic changed: *~/tele/LWT* -> *~/tele/climate*
-- availability topics for BLE / OT sensors: *~/tele/ble*, *~/tele/ot*
+- availability topic changed: *~/tele/LWT* -> *~/avail* (single topic / message for all entities)
+- availability properties for BLE / OT / MQTT / Internal sensors
 
 ### improvements / new features
 
 - HA autodiscovery - device unique id added
 - HA autodiscovery - diagnostics sensors added
 - CH Boiler Limit / Boiler Max properties (and sensors) added
-- OpenTherm messages log to the mqtt
+- OpenTherm messages log to the mqtt (_~/otlog_)
+- Initial REST API implementation (_/api/set_ endpoint), accepts JSON payload. Currently allows setting the room temperature (_roomTemp_ property)
 
 <details>
   <summary> list of autodiscoverable sensors </summary>
