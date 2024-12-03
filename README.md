@@ -17,10 +17,11 @@ You would not need an activation code if you use it with an original ESP32 bough
 ## v2.1 (in progress)
 ### bugfixes
 
-- CH schedule  not working
+- CH schedule not working
 - CH schedule payload and enable now are independent properties
 - BLE connected mode - fixed battery percentage
 - BLE connected mode - timeout reduced to 4 minutes
+- Heating Action - take into account CHActive OpenTherm flag
 
 ### changes
 
@@ -51,15 +52,27 @@ You would not need an activation code if you use it with an original ESP32 bough
   - CH Boiler Temp Limit
   - CH Boiler Max Temp
   - CH Water Pressure
-  - CH Return TemperatureDHW State
+  - CH Return Temperature
+  - DHW State
   - DHW Temperature
   - DHW Temperature2
   - Outdoor Temperature
   - Exhaust Temperature
-  - DiagnosticFault
+  - Diagnostic
+  - Fault
   - Fault Code
-  - OpenTherm Status
+  - OpenTherm Connection State
   - PI factor I
+
+  - MQTT Sensor Temperature
+  - MQTT Sensor Connection State
+  - MQTT Sensor State
+  - MQTT Sensor Last Seen
+
+  - Internal Sensor Temperature
+  - Internal Sensor Connection State
+  - Internal Sensor State
+
   - WiFi RSSI
   
   - BLE Battery
@@ -70,3 +83,10 @@ You would not need an activation code if you use it with an original ESP32 bough
   - BLE Temperature
   - BLE Humidity
 </details>
+
+## v2.2 (planned)
+
+### improvements / new features
+- Equithermic regulation (weather dependent)
+- Constant boiler temperature with hysteresis
+  
