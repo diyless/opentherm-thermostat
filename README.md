@@ -91,3 +91,4 @@ You would not need an activation code if you use it with an original ESP32 bough
 - Constant boiler temperature with hysteresis
 - offscreen first touch event changes settings
 - sensor offset config
+- room setpoint min/max config
