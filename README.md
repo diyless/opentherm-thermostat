@@ -88,7 +88,12 @@ You would not need an activation code if you use it with an original ESP32 bough
 
 ### improvements / new features
 - Equithermic regulation (weather dependent)
-- Constant boiler temperature with hysteresis
-- offscreen first touch event changes settings
+- Equithermic regulation (manually controlled boiler temperature)
+- Configurable hysteresis for Equithermic regulation
+- T3: first touch event on sleeping screen changes settings
 - sensor offset config
 - room setpoint min/max config
+- configurable room setpoint step
+- DHW schedule
+- kiosk mode
+- Configurable HA discovery prefix
