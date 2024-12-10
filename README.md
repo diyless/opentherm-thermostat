@@ -86,11 +86,13 @@ You would not need an activation code if you use it with an original ESP32 bough
 
 ## v2.2 (planned)
 
+### bugfixes
+- T3: first touch event on sleeping screen changes settings
+
 ### improvements / new features
 - Equithermic regulation (weather dependent)
 - Equithermic regulation (manually controlled boiler temperature)
 - Configurable hysteresis for Equithermic regulation
-- T3: first touch event on sleeping screen changes settings
 - sensor offset config
 - room setpoint min/max config
 - configurable room setpoint step
