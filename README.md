@@ -88,6 +88,8 @@ You would not need an activation code if you use it with an original ESP32 bough
 
 ### bugfixes
 - T3: first touch event on sleeping screen changes settings
+- JSON messages corruption (invalid properties values)
+- Thermostat2/3 model name as Thermostat 1 within HA autodiscovery
 
 ### improvements / new features
 - Equithermic regulation with hysteresis (weather dependent)
