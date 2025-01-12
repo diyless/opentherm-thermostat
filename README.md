@@ -97,4 +97,4 @@ You would not need an activation code if you use it with an original ESP32 bough
 - configurable room setpoint step
 - ~DHW schedule~ (moved to 2.3)
 - ~kiosk mode~ (moved to 2.3)
-- !Configurable HA discovery prefix~ (moved to 2.3)
+- ~Configurable HA discovery prefix~ (moved to 2.3)
