@@ -84,19 +84,27 @@ You would not need an activation code if you use it with an original ESP32 bough
   - BLE Humidity
 </details>
 
-## v2.2 (planned)
+## v2.2 (2025.01.25)
 
 ### bugfixes
-- T3: first touch event on sleeping screen changes settings
 - JSON messages corruption (invalid properties values)
 - Thermostat2/3 model name as Thermostat 1 within HA autodiscovery
 
 ### improvements / new features
 - Equithermic regulation with hysteresis (weather dependent)
 - Constant temp regulation with hysteresis (manually controlled boiler temperature)
-- sensor offset config
+- Outside temperature sources: diyless (using weatherapi), weatherapi, openweathermap
+- sensors offset config
 - room setpoint min/max config
 - configurable room setpoint step
-- ~DHW schedule~ (moved to 2.3)
-- ~kiosk mode~ (moved to 2.3)
-- ~Configurable HA discovery prefix~ (moved to 2.3)
+- HA sensors for outside temperature sources
+
+## v2.3 (WIP)
+
+### bugfixes
+- T3: first touch event on sleeping screen changes settings
+
+### improvements / new features
+- DHW schedule
+- kiosk mode
+- Configurable HA discovery prefix
