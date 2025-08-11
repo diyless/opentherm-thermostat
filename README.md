@@ -99,6 +99,11 @@ You would not need an activation code if you use it with an original ESP32 bough
 - configurable room setpoint step
 - HA sensors for outside temperature sources
 
+## v2.2.1 (2025.08.11) Thermostat3 only
+
+### bugfixes
+- External (DS18B20) sensor not working as a room temperature source
+
 ## v2.3 (WIP)
 
 ### bugfixes
