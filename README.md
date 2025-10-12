@@ -104,6 +104,11 @@ You would not need an activation code if you use it with an original ESP32 bough
 ### bugfixes
 - External (DS18B20) sensor not working as a room temperature source
 
+## v2.2.2 (WIP)
+
+### bugfixes
+- External mqtt sensor not working
+
 ## v2.3 (WIP)
 
 ### bugfixes
