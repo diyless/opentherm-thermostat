@@ -110,7 +110,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 - External mqtt sensor not working ([#21](https://github.com/diyless/opentherm-thermostat/issues/21))
 
 ### improvements
-- 'Publish a temperature value to the _topic_name_...' hint improved to show full topic name (for mqtt / external mqtt sensors)
+- 'Publish a temperature value to the _topic_name_...' hint improved to show full topic name (for mqtt / external mqtt sensors) ([#27](https://github.com/diyless/opentherm-thermostat/issues/27#issuecomment-3396450928))
 
 ## v2.3 (WIP)
 
