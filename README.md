@@ -109,6 +109,9 @@ You would not need an activation code if you use it with an original ESP32 bough
 ### bugfixes
 - External mqtt sensor not working
 
+### improvements
+- 'Publish a temperature value to the _topic_name_...' hint improved to show full topic name
+
 ## v2.3 (WIP)
 
 ### bugfixes
