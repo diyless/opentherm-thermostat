@@ -111,8 +111,9 @@ You would not need an activation code if you use it with an original ESP32 bough
 
 ### improvements / new features
 - 'Publish a temperature value to the _topic_name_...' hint improved to show full topic name (for mqtt / external mqtt sensors) ([#27](https://github.com/diyless/opentherm-thermostat/issues/27#issuecomment-3396450928))
-- Display MQTT state & control (T2 / T3) ([#4](https://github.com/diyless/opentherm-thermostat/issues/4)
+- display MQTT state & control (T2 / T3) ([#4](https://github.com/diyless/opentherm-thermostat/issues/4)
 - uptime HA sensor ([#17](https://github.com/diyless/home-assistant-opentherm-thermostat/issues/17))
+- config backup / restore ([#24](https://github.com/diyless/opentherm-thermostat/issues/24))
 
 ## v2.3 (WIP)
 
