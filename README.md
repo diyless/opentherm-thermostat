@@ -116,6 +116,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 - uptime HA sensor ([#17](https://github.com/diyless/home-assistant-opentherm-thermostat/issues/17))
 - config backup / restore ([#24](https://github.com/diyless/opentherm-thermostat/issues/24))
 - ambient light sensor HA entity (T3)
+- system page wifi rssi / ot stats display
 
 ## v2.3 (WIP)
 
