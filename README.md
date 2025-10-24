@@ -104,7 +104,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 ### bugfixes
 - External (DS18B20) sensor not working as a room temperature source
 
-## v2.2.2 (WIP)
+## v2.2.2 (2025.10.24)
 
 ### bugfixes
 - External mqtt sensor not working ([#21](https://github.com/diyless/opentherm-thermostat/issues/21))
