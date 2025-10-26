@@ -118,6 +118,12 @@ You would not need an activation code if you use it with an original ESP32 bough
 - ambient light sensor HA entity (T3)
 - system page wifi rssi / ot stats display
 
+## v2.2.3 (WIP)
+
+### bugfixes
+- display off button turns the screen on ([#4](https://github.com/diyless/opentherm-thermostat/issues/4#issuecomment-3448414717))
+
+
 ## v2.3 (WIP)
 
 ### bugfixes
