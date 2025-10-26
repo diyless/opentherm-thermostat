@@ -121,7 +121,8 @@ You would not need an activation code if you use it with an original ESP32 bough
 ## v2.2.3 (WIP)
 
 ### bugfixes
-- display off button turns the screen on ([#4](https://github.com/diyless/opentherm-thermostat/issues/4#issuecomment-3448414717))
+- display off button turns the screen on (if screen off timeout set to zero) ([#4](https://github.com/diyless/opentherm-thermostat/issues/4#issuecomment-3448414717))
+- HA logs flood because of a missing property in JSON ([#24](https://github.com/diyless/opentherm-thermostat3/issues/24))
 
 
 ## v2.3 (WIP)
