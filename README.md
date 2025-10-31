@@ -124,6 +124,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 - display off button turns the screen on (if screen off timeout set to zero) ([#4](https://github.com/diyless/opentherm-thermostat/issues/4#issuecomment-3448414717))
 - HA logs flood because of a missing property in JSON ([#24](https://github.com/diyless/opentherm-thermostat3/issues/24))
 - CHMin + Curve combination does not work ([#29](https://github.com/diyless/opentherm-thermostat/issues/29))
+- ntp server typo fix ([#23 comment](https://github.com/diyless/opentherm-thermostat/issues/23#issuecomment-3474330509))
 
 ### improvements / new features
 - websocket scheme selector based on location.protocol (thermostat behind reverse proxy with SSL)
