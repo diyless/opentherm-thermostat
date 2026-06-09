@@ -118,7 +118,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 - ambient light sensor HA entity (T3)
 - system page wifi rssi / ot stats display
 
-## v2.2.3 (WIP)
+## v2.2.3 (2026.03.19)
 
 ### bugfixes
 - display off button turns the screen on (if screen off timeout set to zero) ([#4](https://github.com/diyless/opentherm-thermostat/issues/4#issuecomment-3448414717))
@@ -132,9 +132,24 @@ You would not need an activation code if you use it with an original ESP32 bough
 ## v2.3 (WIP)
 
 ### bugfixes
-- T3: first touch event on sleeping screen changes settings
+- Filter invalid OneWire / DS18B20 temperature spikes ([T1#62](https://github.com/diyless/opentherm-thermostat/issues/62), [T1#19](https://github.com/diyless/opentherm-thermostat/issues/19))
+- Increase `isCommunicationActive` timeout to prevent false OpenTherm disconnections ([T3#32](https://github.com/diyless/opentherm-thermostat3/issues/32))
+- T3: OneWire sensor state fix and Home Assistant entity ([T1#62](https://github.com/diyless/opentherm-thermostat/issues/62))
+- T3: Display glitches bugfix
+- T3: Keep schedule state always available
+- Fix float conversion and JSON validation errors
+- Internal resources optimized: now its possible to get reliable 2 concurrent TLS sessions (i.e. own MQTT HA broker + diyless broker)
+- Reduced HA logs flood by adding required properties
 
 ### improvements / new features
+- Time support: time status, NTP via DHCP ([T1#23](https://github.com/diyless/opentherm-thermostat/issues/23), [T3#33](https://github.com/diyless/opentherm-thermostat3/issues/33))
+- T3: Enable/disable the heating schedule from Home Assistant ([T1#3](https://github.com/diyless/opentherm-thermostat/issues/3))
+- Remote control preview
+- MQTT connection error display
+- 
+
+## Planned
 - DHW schedule
 - kiosk mode
 - Configurable HA discovery prefix
+- T3: first touch event on sleeping screen changes settings
