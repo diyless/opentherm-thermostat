@@ -135,6 +135,7 @@ You would not need an activation code if you use it with an original ESP32 bough
 - Filter invalid OneWire / DS18B20 temperature spikes ([T1#62](https://github.com/diyless/opentherm-thermostat/issues/62), [T1#19](https://github.com/diyless/opentherm-thermostat/issues/19))
 - Increase `isCommunicationActive` timeout to prevent false OpenTherm disconnections ([T3#32](https://github.com/diyless/opentherm-thermostat3/issues/32))
 - T3: OneWire sensor state fix and Home Assistant entity ([T1#62](https://github.com/diyless/opentherm-thermostat/issues/62))
+- T3: Schedule usage via display UI bugfix ([T3#35](https://github.com/diyless/opentherm-thermostat3/issues/35))
 - T3: Display glitches bugfix
 - T3: Keep schedule state always available
 - Fix float conversion and JSON validation errors
